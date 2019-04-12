@@ -21,7 +21,7 @@ Ticket Listing Count
 Venue Score (based on estimated sales value of secondary ticket market)
 
 **Label**<br>
-*I took the average of the listed prices*
+*I took the average of the listed prices*<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Ticketmaster%20Resell%20Prices.png)
 
 *EDA*<br>
@@ -31,22 +31,22 @@ Venue Score (based on estimated sales value of secondary ticket market)
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Genres.png)
 *Count by region*<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Regions.png)
-*Month of event*
+*Month of event*<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Month%20of%20Event.png)
-*Average Price of event*
+*Average Price of event*<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)
 
-**Model**
+**Model**<br>
 
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)
 
-*Bottom 5 Coefficients
+*Bottom 5 Coefficients<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients%20updated.png)
 <br>
-*Middle 5 Coefficients
+*Middle 5 Coefficients<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Mid%205%20coefficients.png)
 <br>
-*Top 5 Coefficients
+*Top 5 Coefficients<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Top%205%20coefficients.png)
 <br>
 
