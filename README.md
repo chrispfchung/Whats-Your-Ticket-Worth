@@ -1,4 +1,4 @@
-# **Whats-Your-Ticket-Worth?**<br><br>
+# **Whats-Your-Ticket-Worth?**<br>
 **Question**<br>
 What are the features of a concert event that may affect a ticket's resale price? <br><br>
 **What I did**<br>
@@ -10,7 +10,7 @@ I am curious about how ticket scalpers decide what price they put their tickets 
 *Limitations*<br>
 I do not have historical data of successfully sold ticket prices. My data is also pulled one time for consistency across price, dates, and upcoming events.
 
-**Data**<br>
+##**Data**<br>
 Features:<br>
 Highest Price (of ticket)<br>
 Lowest Price<br>
@@ -26,8 +26,8 @@ Venue Score (based on estimated sales value of secondary ticket market)<br>
 
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Ticketmaster%20Resell%20Prices.png)
 
-**EDA**<br>
-*Count of the top ten genres*<br>
+##**EDA**<br>
+**Count of the top ten genres**<br>
 - Pop by far has a lot more around 600.
 - The rest of the genres hover <100.
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Genres.png)<br><br>
@@ -45,8 +45,7 @@ Venue Score (based on estimated sales value of secondary ticket market)<br>
 - Prices are mostly between $100 and $300.<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)<br><br>
 
-**Model**<br>
-- Final model<br>
+##**Final Model**<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)<br><br>
 
 *Bottom 5 Coefficients<br>
