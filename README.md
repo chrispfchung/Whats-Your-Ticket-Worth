@@ -26,23 +26,23 @@ Venue Score (based on estimated sales value of secondary ticket market)<br>
 
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Ticketmaster%20Resell%20Prices.png)
 
-*EDA*<br>
+**EDA**<br>
 *Count of the top ten genres*<br>
 - Pop by far has a lot more around 600.
 - The rest of the genres hover <100.
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Genres.png)<br><br>
 
 
-*Count by region*<br>
+**Count by region**<br>
 - NYC has a lot more events than Long Island. I grouped the event cities by region to prevent too many features.
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Regions.png)<br><br>
 
-*Month of event* <br>
+**Month of event** <br>
 - Most of the events between Feb. and May. This could be because I collected data from February onwards to a year. Many events may not have been posted yet.
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Month%20of%20Event.png)<br><br>
 
-*Average Price of event*<br>
-- Prices are mostly between $100 and $300. 
+**Average Price of event**<br>
+- Prices are mostly between $100 and $300.<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)<br><br>
 
 **Model**<br>
