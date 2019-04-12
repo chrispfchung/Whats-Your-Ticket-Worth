@@ -1,5 +1,5 @@
 # **Whats-Your-Ticket-Worth?**<br>
-**Question**
+**Question**<br>
 What are the features of a concert event that may affect a ticket's resale price? 
 <br>
 **What I did**<br>
@@ -46,7 +46,7 @@ Venue Score (based on estimated sales value of secondary ticket market)<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)<br><br>
 
 **Model**<br>
-- Final model
+- Final model<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)<br><br>
 
 *Bottom 5 Coefficients<br>
