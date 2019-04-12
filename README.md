@@ -1,12 +1,11 @@
-# **Whats-Your-Ticket-Worth?**<br>
+# **Whats-Your-Ticket-Worth?**<br><br>
 **Question**<br>
-What are the features of a concert event that may affect a ticket's resale price? 
-<br>
+What are the features of a concert event that may affect a ticket's resale price? <br><br>
 **What I did**<br>
-I built a linear regression model using 13 features with 1254 data points. My data came from SeatGeek and Last.FM API. My label is the average listed price based on what other people were selling at on SeatGeek.
+I built a linear regression model using 13 features with 1254 data points. My data came from SeatGeek and Last.FM API. My label is the average listed price based on what other people were selling at on SeatGeek.<br><br>
 
 **Motivation**<br>
-I am curious about how ticket scalpers decide what price they put their tickets at on the market. I wonder if it's because the aritst is popular, the venue is famous, or whether the event is on a weekend. 
+I am curious about how ticket scalpers decide what price they put their tickets at on the market. I wonder if it's because the aritst is popular, the venue is famous, or whether the event is on a weekend.<br><br>
 
 *Limitations*<br>
 I do not have historical data of successfully sold ticket prices. My data is also pulled one time for consistency across price, dates, and upcoming events.
@@ -24,6 +23,7 @@ Venue Score (based on estimated sales value of secondary ticket market)<br>
 
 **Label**<br>
 *Average of the listed prices*<br>
+
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Ticketmaster%20Resell%20Prices.png)
 
 *EDA*<br>
@@ -41,7 +41,7 @@ Venue Score (based on estimated sales value of secondary ticket market)<br>
 - Most of the events between Feb. and May. This could be because I collected data from February onwards to a year. Many events may not have been posted yet.
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Month%20of%20Event.png)<br><br>
 
-*Average Price of event* <br>
+*Average Price of event*<br>
 - Prices are mostly between $100 and $300. 
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)<br><br>
 
