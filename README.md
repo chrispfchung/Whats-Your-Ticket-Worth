@@ -1,4 +1,4 @@
-# **Whats-Your-Ticket-Worth?**
+# **Whats-Your-Ticket-Worth?**<br>
 **Question**
 What are the features of a concert event that may affect a ticket's resale price? 
 <br>
@@ -12,48 +12,50 @@ I am curious about how ticket scalpers decide what price they put their tickets 
 I do not have historical data of successfully sold ticket prices. My data is also pulled one time for consistency across price, dates, and upcoming events.
 
 **Data**<br>
-Features:
-Highest Price (of ticket)
-Lowest Price
-Event Genre
-Time of Day
-Day / Month
-Weekend/Weekday
-Ticket Listing Count
-Venue Score (based on estimated sales value of secondary ticket market)
+Features:<br>
+Highest Price (of ticket)<br>
+Lowest Price<br>
+Event Genre<br>
+Time of Day<br>
+Day / Month<br>
+Weekend/Weekday<br>
+Ticket Listing Count<br>
+Venue Score (based on estimated sales value of secondary ticket market)<br>
 
 **Label**<br>
 *Average of the listed prices*<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Ticketmaster%20Resell%20Prices.png)
 
 *EDA*<br>
+*Count of the top ten genres*<br>
 - Pop by far has a lot more around 600.
 - The rest of the genres hover <100.
-*Count of the top ten genres*<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Genres.png)<br>
-- NYC has a lot more events than Long Island. I grouped the event cities by region to prevent too many features.
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Genres.png)<br><br>
+
+
 *Count by region*<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Regions.png)<br>
-- Most of the events between Feb. and May. This could be because I collected data from February onwards to a year. Many events may not have been posted yet.
+- NYC has a lot more events than Long Island. I grouped the event cities by region to prevent too many features.
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Regions.png)<br><br>
+
 *Month of event* <br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Month%20of%20Event.png)<br>
-- Prices are mostly between $100 and $300. 
+- Most of the events between Feb. and May. This could be because I collected data from February onwards to a year. Many events may not have been posted yet.
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Month%20of%20Event.png)<br><br>
+
 *Average Price of event* <br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)<br>
+- Prices are mostly between $100 and $300. 
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)<br><br>
 
 **Model**<br>
 - Final model
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)<br><br>
 
 *Bottom 5 Coefficients<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients%20updated.png)
-<br>
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients%20updated.png)<br>
+
 *Middle 5 Coefficients<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Mid%205%20coefficients.png)
-<br>
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Mid%205%20coefficients.png)<br>
 *Top 5 Coefficients<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Top%205%20coefficients.png)
-<br>
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Top%205%20coefficients.png)<br>
 
 Findings:<br>
 - The month of November has the highest coefficient with 144 with the event coefficient 144 while the next highest month is at 28.
