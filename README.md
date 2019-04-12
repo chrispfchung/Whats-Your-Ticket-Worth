@@ -23,7 +23,7 @@ Ticket Listing Count
 Venue Score (based on estimated sales value of secondary ticket market)
 
 **Label**<br>
-*I took the average of the listed prices*<br>
+*Average of the listed prices*<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Ticketmaster%20Resell%20Prices.png)
 
 *EDA*<br>
@@ -31,15 +31,18 @@ Venue Score (based on estimated sales value of secondary ticket market)
 - The rest of the genres hover <100.
 *Count of the top ten genres*<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Genres.png)<br>
+- NYC has a lot more events than Long Island. I grouped the event cities by region to prevent too many features.
 *Count by region*<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Regions.png)<br>
+- Most of the events between Feb. and May. This could be because I collected data from February onwards to a year. Many events may not have been posted yet.
 *Month of event* <br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Month%20of%20Event.png)<br>
-*Average Price of event* Prices are mostly between $100 and $300. <br>
+- Prices are mostly between $100 and $300. 
+*Average Price of event* <br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)<br>
 
 **Model**<br>
-
+- Final model
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)
 
 *Bottom 5 Coefficients<br>
@@ -53,7 +56,8 @@ Venue Score (based on estimated sales value of secondary ticket market)
 <br>
 
 Findings:<br>
-- The month of November has the greatest impact on the price, with the event coefficient 144 while the next highest month is at 28.
+- The month of November has the highest coefficient with 144 with the event coefficient 144 while the next highest month is at 28.
+However, there are very few events in November compared to the other months so the result should be taken with a grain of salt.
 - Venue score is the highest coefficient but the value is between 0 and 1. In other words, price for venue score increase by 2.1 per .01. 
 - Small capacity venues, events starting at 5 or 10, and events in August yield higher values.
 - Events starting at 11, in a large venue, in October, yield exceptionally lower prices.
