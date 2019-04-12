@@ -1,2 +1,5 @@
-# Whats-Your-Ticket-Worth
-Examining concert event information that may affect their ticket resale price.
+
+
+# **Whats-Your-Ticket-Worth?**
+I examined concert ticket information to see what factors may affect a tickets resale price.
+
