@@ -23,7 +23,7 @@ Venue Score (based on estimated sales value of secondary ticket market)
 *EDA*<br>
 - Pop by far has a lot more around 600.
 - The rest of the genres hover <100.
-![Image](Screen%20Shot%202019-04-12%20at%202.28.55%20PM.png)
+![Image]('Event Regions.png')
 
 - Most of the average prices hover around $250
 - 
