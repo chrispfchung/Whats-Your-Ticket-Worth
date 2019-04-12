@@ -1,6 +1,8 @@
 # **Whats-Your-Ticket-Worth?**
+**Question**
 What are the features of a concert event that may affect a ticket's resale price? 
-
+<br>
+**What I did**<br>
 I built a linear regression model using 13 features with 1254 data points. My data came from SeatGeek and Last.FM API. My label is the average listed price based on what other people were selling at on SeatGeek.
 
 **Motivation**<br>
@@ -28,13 +30,13 @@ Venue Score (based on estimated sales value of secondary ticket market)
 - Pop by far has a lot more around 600.
 - The rest of the genres hover <100.
 *Count of the top ten genres*<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Genres.png)
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Genres.png)<br>
 *Count by region*<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Regions.png)
-*Month of event*<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Month%20of%20Event.png)
-*Average Price of event*<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Regions.png)<br>
+*Month of event* <br>
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Month%20of%20Event.png)<br>
+*Average Price of event* Prices are mostly between $100 and $300. <br>
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)<br>
 
 **Model**<br>
 
