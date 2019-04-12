@@ -27,21 +27,28 @@ Venue Score (based on estimated sales value of secondary ticket market)
 *EDA*<br>
 - Pop by far has a lot more around 600.
 - The rest of the genres hover <100.
-
+*Count of the top ten genres*<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Genres.png)
+*Count by region*<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Event%20Regions.png)
+*Month of event*
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Month%20of%20Event.png)
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Start%20time%20of%20events.png)
+*Average Price of event*
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Average%20Price.png)
 
 **Model**
 
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)
 
-
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients.png)
+*Bottom 5 Coefficients
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients%20updated.png)
+<br>
+*Middle 5 Coefficients
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Mid%205%20coefficients.png)
+<br>
+*Top 5 Coefficients
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Top%205%20coefficients.png)
+<br>
 
 Findings:<br>
 - The month of November has the greatest impact on the price, with the event coefficient 144 while the next highest month is at 28.
