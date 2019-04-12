@@ -9,7 +9,7 @@ I am curious about how ticket scalpers decide what price they put their tickets 
 *Limitations*<br>
 I do not have historical data of successfully sold ticket prices. My data is also pulled one time for consistency across price, dates, and upcoming events.
 
-**Data**
+**Data**<br>
 Features:
 Highest Price (of ticket)
 Lowest Price
@@ -20,7 +20,7 @@ Weekend/Weekday
 Ticket Listing Count
 Venue Score (based on estimated sales value of secondary ticket market)
 
-**Label**
+**Label**<br>
 *I took the average of the listed prices*
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Ticketmaster%20Resell%20Prices.png)
 
