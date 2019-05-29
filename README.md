@@ -52,17 +52,15 @@ Venue Score (based on estimated sales value of secondary ticket market)<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)<br><br>
 
 *Bottom 5 Coefficients<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients%20updated.png)<br>
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients%20updated.png)<br><br>
 
-<br>
 *Middle 5 Coefficients<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Mid%205%20coefficients.png)<br>
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Mid%205%20coefficients.png)<br><br>
 
-<br>
 *Top 5 Coefficients<br>
-![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Top%205%20coefficients.png)<br>
+![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Top%205%20coefficients.png)<br><br>
 
-<br>
+
 ## **Findings**<br>
 - The month of November has the highest coefficient with 144 with the event coefficient 144 while the next highest month is at 28.
 However, there are very few events in November compared to the other months so the result should be taken with a grain of salt.
