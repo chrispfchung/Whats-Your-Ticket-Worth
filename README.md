@@ -10,6 +10,9 @@ I am curious about how ticket scalpers decide what price they put their tickets 
 *Limitations*<br>
 I do not have historical data of successfully sold ticket prices. My data is also pulled one time for consistency across price, dates, and upcoming events.
 
+**Code**
+To view the code used for this project, please see files listed from 1-5.
+
 ## **Data**<br>
 Features:<br>
 Highest Price (of ticket)<br>
@@ -51,12 +54,14 @@ Venue Score (based on estimated sales value of secondary ticket market)<br>
 *Bottom 5 Coefficients<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients%20updated.png)<br>
 
+<br>
 *Middle 5 Coefficients<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Mid%205%20coefficients.png)<br>
+<br>
 *Top 5 Coefficients<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Top%205%20coefficients.png)<br>
 
-Findings:<br>
+**Findings**<br>
 - The month of November has the highest coefficient with 144 with the event coefficient 144 while the next highest month is at 28.
 However, there are very few events in November compared to the other months so the result should be taken with a grain of salt.
 - Venue score is the highest coefficient but the value is between 0 and 1. In other words, price for venue score increase by 2.1 per .01. 
