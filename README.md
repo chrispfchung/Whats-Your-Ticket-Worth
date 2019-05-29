@@ -10,7 +10,7 @@ I am curious about how ticket scalpers decide what price they put their tickets 
 *Limitations*<br>
 I do not have historical data of successfully sold ticket prices. My data is also pulled one time for consistency across price, dates, and upcoming events.
 
-**Code**
+**Code**<br>
 To view the code used for this project, please see files listed from 1)-5).
 
 ## **Data**<br>
