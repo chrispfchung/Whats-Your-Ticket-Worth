@@ -10,7 +10,7 @@ I am curious about how ticket scalpers decide what price they put their tickets 
 *Limitations*<br>
 I do not have historical data of successfully sold ticket prices. My data is also pulled one time for consistency across price, dates, and upcoming events.
 
-## **Code**
+# **Code**
 To view the code used for this project, please see files listed from 1-5.
 
 ## **Data**<br>
@@ -51,13 +51,13 @@ Venue Score (based on estimated sales value of secondary ticket market)<br>
 ## **Final Model**<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)<br><br>
 
-*Bottom 5 Coefficients<br>
+*Bottom 5 Coefficients - hurting final price the most<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients%20updated.png)<br><br>
 
-*Middle 5 Coefficients<br>
+*Middle 5 Coefficients - neutral impact on final price<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Mid%205%20coefficients.png)<br><br>
 
-*Top 5 Coefficients<br>
+*Top 5 Coefficients - strong boosters of final price<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Top%205%20coefficients.png)<br><br>
 
 
