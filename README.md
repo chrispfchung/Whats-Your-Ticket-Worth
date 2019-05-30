@@ -7,9 +7,6 @@ I built a linear regression model using 13 features with 1254 data points. My da
 **Motivation**<br>
 I am curious about how ticket scalpers decide what price they put their tickets at on the market. I wonder if it's because the aritst is popular, the venue is famous, or whether the event is on a weekend. With only knowing what the event is and where it is, I want to see whether I can predict the price of a ticket.<br><br>
 
-*Limitations*<br>
-I do not have historical data of successfully sold ticket prices. My data is also pulled one time for consistency across price, dates, and upcoming events.
-
 **Code**<br>
 To view the code used for this project, please see files listed from 1)-5).
 
@@ -25,7 +22,7 @@ Ticket Listing Count<br>
 Venue Score (based on estimated sales value of secondary ticket market)<br>
 
 **Label**<br>
-*Average of the listed prices*<br>
+I used the current average resale price as a proxy for successfully sold tickets in a given time.<br>
 
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Ticketmaster%20Resell%20Prices.png)
 
@@ -51,13 +48,13 @@ Venue Score (based on estimated sales value of secondary ticket market)<br>
 ## **Final Model**<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)<br><br>
 
-*Bottom 5 Coefficients - hurting final price the most<br>
+**Bottom 5 Coefficients - hurting final price the most<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients%20updated.png)<br><br>
 
-*Middle 5 Coefficients - neutral impact on final price<br>
+**Middle 5 Coefficients - neutral impact on final price<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Mid%205%20coefficients.png)<br><br>
 
-*Top 5 Coefficients - strong boosters of final price<br>
+**Top 5 Coefficients - strong boosters of final price<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Top%205%20coefficients.png)<br><br>
 
 
