@@ -48,13 +48,13 @@ I used the current average resale price as a proxy for successfully sold tickets
 ## **Final Model**<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Reg%20Plot.png)<br><br>
 
-**Bottom 5 Coefficients - hurting final price the most<br>
+**Bottom 5 Coefficients - hurting final price the most**<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Bottom%205%20coefficients%20updated.png)<br><br>
 
-**Middle 5 Coefficients - neutral impact on final price<br>
+**Middle 5 Coefficients - neutral impact on final price**<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Mid%205%20coefficients.png)<br><br>
 
-**Top 5 Coefficients - strong boosters of final price<br>
+**Top 5 Coefficients - strong boosters of final price**<br>
 ![Image](https://github.com/chrispfchung/Whats-Your-Ticket-Worth/blob/master/Images/Top%205%20coefficients.png)<br><br>
 
 
