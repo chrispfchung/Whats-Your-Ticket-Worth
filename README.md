@@ -14,7 +14,7 @@ I do not have historical data of successfully sold ticket prices. My data is als
 To view the code used for this project, please see files listed from 1)-5).
 
 ## **Data**<br>
-Features:<br>
+**Features:**<br>
 Highest Price (of ticket)<br>
 Lowest Price<br>
 Event Genre<br>
