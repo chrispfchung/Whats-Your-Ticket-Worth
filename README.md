@@ -1,8 +1,10 @@
 # **Whats-Your-Ticket-Worth?**<br>
 **Question**<br>
-What are the features of a concert event that may affect a ticket's resale price? <br><br>
+What concert event features have an effect on a ticket's resale price? 
+<br>
+<br>
 **What I did**<br>
-I built a linear regression model using 13 features with 1254 data points. My data came from SeatGeek and Last.FM API. My label is the average listed price based on what other people were selling at on SeatGeek.<br><br>
+I built a linear regression model using 13 features with 1254 data points. I also explored the data set to learn about the event trends. My data came from SeatGeek and Last.FM API. My label is the average listed price based on what other people were selling at on SeatGeek.<br><br>
 
 **Motivation**<br>
 I am curious about how ticket scalpers decide what price they put their tickets at on the market. I wonder if it's because the aritst is popular, the venue is famous, or whether the event is on a weekend. With only knowing what the event is and where it is, I want to see whether I can predict the price of a ticket.<br><br>
